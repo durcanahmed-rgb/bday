@@ -1,0 +1,182 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+min-height: 100vh;
+
+```
+background: linear-gradient(
+    180deg,
+    #FFE066,
+    #FFD54F
+);
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+overflow: hidden;
+```
+
+}
+
+h1 {
+margin-bottom: 10px;
+text-align: center;
+}
+
+.subtitle {
+text-align: center;
+max-width: 600px;
+margin-bottom: 25px;
+font-style: italic;
+}
+
+.box {
+width: 420px;
+min-height: 320px;
+
+```
+background: linear-gradient(
+    145deg,
+    #5c3317,
+    #3d2210
+);
+
+border: 8px solid #c9a227;
+
+border-radius: 18px;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+gap: 12px;
+
+padding: 20px;
+
+box-shadow:
+    0 12px 24px rgba(0,0,0,.3);
+```
+
+}
+
+.chocolate {
+width: 58px;
+height: 58px;
+
+```
+cursor: pointer;
+
+transition:
+    transform .3s ease,
+    opacity .3s ease;
+
+box-shadow:
+    inset 3px 3px 8px rgba(255,255,255,.15),
+    inset -4px -4px 8px rgba(0,0,0,.25),
+    0 4px 8px rgba(0,0,0,.25);
+```
+
+}
+
+.chocolate:hover {
+transform: scale(1.1);
+}
+
+.round {
+border-radius: 50%;
+}
+
+.square {
+border-radius: 12px;
+}
+
+.truffle {
+border-radius: 45% 55% 60% 40%;
+}
+
+.dark {
+background:
+radial-gradient(circle at 30% 30%,
+#6d4328,
+#2b1408);
+}
+
+.milk {
+background:
+radial-gradient(circle at 30% 30%,
+#b87443,
+#6b3c1f);
+}
+
+.white {
+background:
+radial-gradient(circle at 30% 30%,
+#fff8dc,
+#d8c5a2);
+}
+
+.popup {
+position: fixed;
+inset: 0;
+
+```
+background: rgba(0,0,0,.6);
+
+display: none;
+
+align-items: center;
+justify-content: center;
+```
+
+}
+
+.popup-content {
+background: white;
+width: 320px;
+
+```
+padding: 25px;
+
+border-radius: 14px;
+
+text-align: center;
+```
+
+}
+
+button {
+background: #ff5a5a;
+color: white;
+
+```
+border: none;
+
+padding: 10px 16px;
+
+border-radius: 8px;
+
+cursor: pointer;
+```
+
+}
+
+.final-screen {
+display: none;
+
+```
+text-align: center;
+
+max-width: 600px;
+
+padding: 30px;
+```
+
+}
+
+#confetti {
+position: fixed;
+inset: 0;
+pointer-events: none;
+}
